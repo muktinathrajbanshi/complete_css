@@ -90,15 +90,16 @@ p {
     /*? One Value: margin: all four direction; */
         /* margin: 200px; */
         margin-bottom: 50px;
-        margin: auto;
+        margin: auto; 
 }
 
 .section-two{
     padding: 50px;
     width: 1200px;
     background-color: #5e9de9;
-    margin-left: 100px;
-  
+    margin: auto;
+    margin-top: 30px;
+    
 }
 /** --------------------------------------------------------->
 /**  ADVANCED MARGIN IN CSS + NOTES + TIPS
@@ -123,3 +124,4 @@ p {
 /* margin: 10px 20px 15px 30px; */
 
 /*? 3: How can you center-align an HTML element horizontally using margins? ⭐⭐⭐⭐⭐ */
+/* margin: auto; */
