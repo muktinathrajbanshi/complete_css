@@ -154,7 +154,8 @@
   /** ------------------------------------- -->
   /** Important Notes
   /** ---------------------------------------- --> */
-  /* The :last-child pseudo-class selects an element if it's the last child within its parent element. It doesn't work if there are other elements after it within the same parent. */
+  /* The :last-child pseudo-class selects an element if it's the last child within its parent element. 
+  It doesn't work if there are other elements after it within the same parent. */
   
   /*? after last of type child let them know about first child too   */
   
