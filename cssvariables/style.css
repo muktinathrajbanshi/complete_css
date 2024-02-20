@@ -70,15 +70,23 @@
     /* font-family: "Urbanist"; */
   }
   
-  
+  #para-id {
+    color: pink;
+  }
+
+  .para-class {
+    color: #0062ff;
+  }
   
   p {
     font-size: 20px;
     letter-spacing: 1px;
     margin: 2rem 0 4rem 0;
-    color: var(--font-color);
+    color: red;
   }
   
+
+
   img {
     width: 100%;
     height: auto;
@@ -102,5 +110,6 @@
   
   a {
     color: var(--timepass-color);
+    background-color: red;
   }
   
