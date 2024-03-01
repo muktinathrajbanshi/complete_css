@@ -73,9 +73,25 @@ li {
 
  .grid-two--cols{
     grid-template-columns: repeat(2, 1fr);
+    height: 62.5rem;
+ }
+
+ .grid-three--cols{
+    grid-template-columns: repeat(3, 1fr);
  }
 
 /* module / reusable */
+
+.section-common-heading{
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.section-common--title{
+    font-size: 2rem;
+    margin: 2.4rem 0 1.2rem 0;
+}
 
 .btn{
     display: inline-block;
@@ -87,6 +103,10 @@ li {
     -moz-border-radius: 0.6rem;
     -ms-border-radius: 0.6rem;
     -o-border-radius: 0.6rem;
+}
+
+.section-common-subheading{
+    color: var(--heading-color);
 }
 
 
@@ -163,6 +183,7 @@ li {
 /***** hero Section *****/ 
 
 main {
+    position: relative;
     background-image: linear-gradient(
         to top right,
         #3d86fa,
@@ -211,6 +232,67 @@ main {
     -o-transform: scaleX(-1);
 }
 
+ /* shape divider */
+ .custom-shape-divider-bottom-1709270853 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1709270853 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1709270853 .shape-fill {
+    fill: #FFFFFF;
+}
+
 /***** End hero Section *****/
 
+/***** about Section *****/ 
+
+    .section-about .grid{
+        gap: 6.4rem;
+    }
+
+    .section-about .about-div {
+        text-align: center;
+    }
+
+    .section-about img{
+        padding: 2.4rem;
+        background-color: var(--supporting-color);
+        width: 15rem;
+        height: auto;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        transition: all 0.3s linear;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        -ms-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+}
+
+
+    .icon:hover > img {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        /* rotate: 360deg; */
+        background: linear-gradient(to right, #0575e6, #021b79);
+}
+
+/***** End about Section *****/
 
