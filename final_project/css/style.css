@@ -83,6 +83,8 @@ li {
  .grid-four--cols{
     grid-template-columns: repeat(4, 1fr);
  }
+ 
+
 
 /* module / reusable */
 
@@ -356,7 +358,43 @@ main {
         background-color: #dce9fa;
     }
     
-
- 
-
 /***** End Course Section *****/
+
+/***** why choose Section *****/ 
+
+    .section-why--choose .grid{
+        gap: 9.6rem;
+    }
+
+    .section-why--choose .text-align--right .why-choose--div{
+        /* text-align: right; */
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: end;
+        text-align: right;
+    }
+
+    .common-text--highlight{
+        width: 6rem;
+        aspect-ratio: 1;
+        background-color: var(--supporting-color);
+        color: var(--main-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.4rem;
+        font-weight: 700;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+}
+    .choose-center--div img{
+        width: 90%;
+        height: auto;
+    }
+
+ /***** End why choose Section *****/
+
