@@ -642,8 +642,14 @@ main {
     border: none;
     text-transform: capitalize;
 }
+
+
+input:focus-visible,
+textarea:focus-visible {
+    outline: 0.1rem solid var(--bnt-hover-bg-color);
+}
  
- /***** End Section *****/
+ /***** End actual contact page Section *****/
  
 
 
@@ -710,6 +716,36 @@ main {
  }
   }
  /***** End Footer Section *****/
+
+ /***** scrollbar Section *****/ 
+ 
+  /* width */
+  ::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--supporting-color);
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+ /* Handle an hover */
+ ::-webkit-scrollbar-thumb:hover {
+    background: var(--heading-color);
+ }
+
+ /***** End scrollbar Section *****/
+ 
  
  
 
