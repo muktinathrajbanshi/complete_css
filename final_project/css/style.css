@@ -91,7 +91,7 @@ li {
     .section-contact--homepage
     ) 
     .container:first-child {
-        padding: 6.4rem 0 2.4rem 0;
+        padding: 6.4rem 2.4rem 2.4rem 2.4rem;   
     }
 
  .grid {
@@ -296,7 +296,7 @@ main {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 150px;
+    height: 12rem;
 }
 
 .custom-shape-divider-bottom-1709270853 .shape-fill {
@@ -746,6 +746,32 @@ textarea:focus-visible {
 
  /***** End scrollbar Section *****/
  
+ /*? scroll animation and scroll snap */
+
+ /***** media queries Section *****/ 
+
+ /* @media (max-width: 1380px) { */
+    @media (width <= 1400px) {
+
+    html {
+        font-size: 56.25;
+        /* 1rem = 9px */
+    }
+
+    .section-hero img {
+        width: 90%;
+    }
+
+    @media (width <= 1200) {
+        html {
+            font-size: 54%;
+
+        }
+    }
+    
+ }
+ 
+ /***** End media queries Section *****/
  
  
 
