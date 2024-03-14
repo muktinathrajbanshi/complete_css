@@ -762,11 +762,48 @@ textarea:focus-visible {
         width: 90%;
     }
 
-    @media (width <= 1200) {
+    @media (width <= 1220) {
         html {
             font-size: 54%;
 
         }
+    }
+
+    @media (width <= 998px) {
+        .section-hero {
+            height: auto;
+            padding-bottom: 4rem;
+            & .grid-two--cols {
+                grid-template-columns: 1fr;
+
+
+
+            & .section-hero--content {
+                order: 2;
+            }    
+
+            & .section-hero--image {
+                order: 1;
+
+              & img{
+                width: 80%;
+              }  
+            }
+
+            }
+        }
+    }
+
+    @media (width <= 768px) {
+        .grid-two--cols,
+        .grid-three--cols {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .section-navbar .container {
+        display: flex;
+        flex-direction: column;
     }
     
  }
