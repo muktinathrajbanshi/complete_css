@@ -175,7 +175,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.8rem 0;
+    padding: 1.8rem 2.4rem;
 }
 
 .navbar-brand a, img {
@@ -790,7 +790,11 @@ textarea:focus-visible {
               }  
             }
 
-            }
+           }
+        }
+
+        .section-about  .about-div {
+          text-align: left;  
         }
     }
 
@@ -804,6 +808,11 @@ textarea:focus-visible {
     .section-navbar .container {
         display: flex;
         flex-direction: column;
+
+        & .navbar-brand {
+            text-align: center;
+            margin-bottom: 2.4rem;
+        }
     }
     
  }
